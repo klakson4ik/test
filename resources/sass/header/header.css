@@ -1,0 +1,22 @@
+.header {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: repeat(6, 1fr);
+	background-color: #007bff;
+	height: 130px;
+}	
+
+.header-currency{
+	grid-row: 1;
+	grid-column: 1;
+}
+
+.header-auth{
+	grid-row: 1;
+	grid-column: 6;
+}
+
+.header-category{
+	grid-row: 2;
+	grid-column: 1/6;
+}
